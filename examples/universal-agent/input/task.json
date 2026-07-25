@@ -1,0 +1,6 @@
+{
+  "goal": "Analyze input file",
+  "input": "sample.txt",
+  "recovery_policy": "retry_once",
+  "task_id": "task-001"
+}

@@ -2,7 +2,7 @@
 
 ## TITMAS First Experience
 
-## Verify Your First AI Agent in 10 Minutes
+## Run the TITMAS Golden Path in 10 Minutes
 
 TITMAS Demo is the first-experience gateway for exploring verifiable AI agents.
 
@@ -16,42 +16,60 @@ This repository focuses on runnable entry points, examples, and quick verificati
 
 ## Quick Start
 
-1. Open this repository structure.
-2. Choose one path:
-   - `examples/` for starter examples
-   - `agents/` for minimal agent patterns
-   - `reports/` for expected outputs and verification notes
-3. Follow the corresponding file when available.
+```bash
+git clone https://github.com/joy7758/titmas-demo.git
+cd titmas-demo/examples/universal-agent
+python3 run.py
+```
 
-Each path is aligned with the existing TITMAS infrastructure.
+Expected terminal output:
 
-## Examples
+```text
+TITMAS Golden Path Complete
+Execution Record: CREATED
+Evidence Bundle: VERIFIED
+Health Report: GENERATED
+Audit Receipt: CREATED
+```
 
-- Research Agent (execution trace + evidence + health check)
-- Coding Agent (task-oriented code execution loop)
-- MCP Agent (tool-call flow with verification boundaries)
+Read the canonical workflow specification:
+[TITMAS Golden Path v0.1](docs/golden-path-v0.1.md).
 
-Use `agent-evidence`, `SAEE`, and `aro-audit` as the execution/evidence/evaluation references.
+## Golden Path v0.1
 
-## Research Agent
+```text
+User Task
+  -> Universal Agent
+  -> Execution Record
+  -> Evidence Bundle
+  -> Health Assessment
+  -> Audit Receipt
+  -> Human Review
+```
 
-A research agent flow should generate:
+The first example is a deterministic File Analysis Agent. It uses only the
+Python standard library and local files:
 
-- Execution Record
-- Evidence Package
-- Verification Result
-- Health Report
+- [Universal Agent Demo](examples/universal-agent/README.md)
 
-These artifacts are expected to map to the TITMAS quality and governance layers.
+The example produces contract-shaped local artifacts aligned with:
 
-## Coding Agent
+- `agent-evidence` for execution evidence
+- `titmas-health` for state-based health assessment
+- `aro-audit` for audit receipts
+- `SAEE` for future long-term evaluation
 
-A coding agent path should prioritize deterministic action logs and auditable status signals.
+It does not call or modify those repositories and does not claim current
+runtime integration.
 
-## MCP Agent
+## Scope
 
-An MCP agent path should show clear evidence boundaries around tool calls and results.
+This repository is an entry portal. Golden Path v0.1 demonstrates a
+deterministic local lifecycle; it is not a production runtime, certification,
+legal-compliance assessment, intelligence ranking, or safety guarantee.
 
-## Notes
-
-This repository is an entry portal. It does not replace core repositories.
+```text
+DEMO_CLASS=DETERMINISTIC_LOCAL_REFERENCE
+CURRENT_TITMAS_RUNTIME_INTEGRATION=false
+PRODUCTION_READY=false
+```

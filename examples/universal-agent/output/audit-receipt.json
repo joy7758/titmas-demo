@@ -1,0 +1,13 @@
+{
+  "evidence_id": "evidence-001",
+  "health_report_sha256": "66a9c876118fe1cbd7b30c503b426b68d906083bd217f0b2cce002892fffd945",
+  "integrity_record_sha256": "7aa3cd1b04cc2711bde8604e271bb0f5ebd35fb2b4af4685007981860a20561a",
+  "limitations": [
+    "local demo receipt only",
+    "not legal compliance, certification, or execution authorization"
+  ],
+  "receipt_id": "audit-001",
+  "schema_version": "titmas.audit-receipt.v0.1",
+  "task_id": "task-001",
+  "verification": "passed"
+}

@@ -1,0 +1,20 @@
+{
+  "algorithm": "SHA-256",
+  "checks": [
+    {
+      "path": "../execution-record.json",
+      "sha256": "d3203ba5ef6aacba3fe71a52162dc6c3efda0dd89a97304a2e21c742b027b850"
+    },
+    {
+      "path": "manifest.json",
+      "sha256": "39ca7158fa09eeb0ffc27e6f9ec1a9ba572db3f8a13d2e0b1ff085a32279996e"
+    },
+    {
+      "path": "records.jsonl",
+      "sha256": "d47f22f82c96f917c53d49ef5b4074cdb486de984d4eaef8251094a0652df5c6"
+    }
+  ],
+  "evidence_id": "evidence-001",
+  "schema_version": "titmas.evidence-integrity.v0.1",
+  "verification": "passed"
+}

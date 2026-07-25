@@ -1,0 +1,27 @@
+{
+  "actions": [
+    {
+      "input": "sample.txt",
+      "sequence": 1,
+      "sha256": "f21840e350c760119f2171be62381aa886eb55bc38203e44287f649a1779b0c1",
+      "status": "success",
+      "type": "file_read"
+    },
+    {
+      "method": "first_nonempty_line",
+      "sequence": 2,
+      "status": "success",
+      "type": "analysis"
+    }
+  ],
+  "agent_id": "universal-agent",
+  "goal": "Analyze input file",
+  "output": {
+    "line_count": 2,
+    "summary": "TITMAS records agent execution as reviewable evidence.",
+    "word_count": 16
+  },
+  "result": "completed",
+  "schema_version": "titmas.execution-record.v0.1",
+  "task_id": "task-001"
+}
