@@ -1,0 +1,2 @@
+TITMAS records agent execution as reviewable evidence.
+This deterministic sample requires no external model or API.

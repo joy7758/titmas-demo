@@ -1,0 +1,2 @@
+Digital cells preserve bounded execution history as verifiable evidence.
+This local document is analyzed without an external model or network service.
