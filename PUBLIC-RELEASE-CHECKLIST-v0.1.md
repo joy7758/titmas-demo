@@ -34,7 +34,7 @@
 | Screenshots ready | PASS |
 | Architecture image ready | PASS |
 | GitHub release draft ready | PASS |
-| GitHub release published | PENDING_HUMAN_CONFIRMATION |
+| GitHub release published | PASS |
 
 ## redcrag.cn Publication Checklist
 
@@ -46,7 +46,7 @@
 | Running instructions | PASS |
 | GitHub link placeholder | PASS |
 | RedCrag page draft | PASS |
-| RedCrag page published | PENDING_HUMAN_CONFIRMATION |
+| RedCrag page published | PASS |
 
 The public URL placeholders are intentionally retained until a human-authorized publication creates the final locations. This does not block release-package readiness.
 
@@ -78,7 +78,9 @@ TECHNICAL_RELEASE_READY=true
 RELEASE_ASSETS_READY=true
 GITHUB_RELEASE_READY=true
 REDCrAG_PUBLICATION_READY=true
-PUBLIC_RELEASE_STATUS=AUTHORIZED_PENDING_EXECUTION
+PUBLIC_RELEASE_STATUS=PUBLISHED
+GITHUB_PUBLICATION_STATUS=PUBLISHED
+REDCrAG_PUBLICATION_STATUS=PUBLISHED
 GITHUB_PUBLICATION_AUTHORIZED=true
 REDCrAG_PUBLICATION_AUTHORIZED=true
 DEPLOYMENT_AUTHORIZED=true
