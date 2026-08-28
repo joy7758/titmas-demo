@@ -10,8 +10,13 @@
 DEMO_ID=TITMAS-DIGITAL-CELL-DEMO-v0.1
 DEMO_STATUS=REFERENCE_COMPLETE
 IMPLEMENTATION_TYPE=REFERENCE_DEMO_ONLY
+FREEZE_STATUS=FROZEN_REFERENCE_IMPLEMENTATION
+PUBLIC_RELEASE_STATUS=PUBLISHED
+PUBLICATION_EXECUTION_COMPLETE=true
+MAINTENANCE_MODE=true
+ACTIVE_FEATURE_DEVELOPMENT=false
+CURRENT_CANONICAL_DOMAIN=https://dcell.net
 CURRENT_TITMAS_RUNTIME_INTEGRATION=false
-PUBLIC_RELEASE_AUTHORIZED=false
 PRODUCTION_READY=false
 ```
 
@@ -231,15 +236,22 @@ TITMAS compatibility claims.
 
 ## Public Release Status
 
-The technical reference demo, Apache License 2.0, and release documentation are
-prepared. Screenshots, the architecture image, final human confirmation, and
-the external publication actions remain pending.
+Version `v0.1.0` has been published and is now maintained as a frozen reference
+implementation. Historical RedCrag publication records remain part of the
+release evidence. The current canonical domain is `https://dcell.net`, but that
+domain does not currently provide a dedicated Digital Cell page; the GitHub
+Release remains the current public demo reference.
 
 ```text
 LICENSE_STATUS=APACHE-2.0
-PUBLIC_RELEASE_STATUS=PENDING_HUMAN_CONFIRMATION_AND_RELEASE_ASSETS
-GITHUB_RELEASE_PUBLISHED=false
-REDCRAG_PUBLICATION_DEPLOYED=false
+PUBLIC_RELEASE_STATUS=PUBLISHED
+GITHUB_RELEASE_PUBLISHED=true
+PUBLICATION_EXECUTION_COMPLETE=true
+CURRENT_CANONICAL_DOMAIN=https://dcell.net
+CURRENT_DEMO_PUBLIC_REFERENCE=https://github.com/joy7758/titmas-demo/releases/tag/v0.1.0
+CURRENT_DEMO_DOMAIN_PAGE_AVAILABLE=false
+REDCRAG_CN_ROLE=LEGACY_HISTORICAL_DOMAIN
+MAINTENANCE_MODE=true
 ```
 
 Open-source availability must not be interpreted as certification, production

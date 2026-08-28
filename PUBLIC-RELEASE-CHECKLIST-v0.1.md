@@ -36,7 +36,7 @@
 | GitHub release draft ready | PASS |
 | GitHub release published | PASS |
 
-## redcrag.cn Publication Checklist
+## Historical redcrag.cn Publication Checklist
 
 | Item | Status |
 |---|---|
@@ -48,7 +48,8 @@
 | RedCrag page draft | PASS |
 | RedCrag page published | PASS |
 
-The public URL placeholders are intentionally retained until a human-authorized publication creates the final locations. This does not block release-package readiness.
+This section is retained as the historical execution record for the 2026-07-26
+publication. `redcrag.cn` is no longer the current canonical domain.
 
 ## Release Asset Inventory
 
@@ -81,9 +82,13 @@ REDCrAG_PUBLICATION_READY=true
 PUBLIC_RELEASE_STATUS=PUBLISHED
 GITHUB_PUBLICATION_STATUS=PUBLISHED
 REDCrAG_PUBLICATION_STATUS=PUBLISHED
-GITHUB_PUBLICATION_AUTHORIZED=true
-REDCrAG_PUBLICATION_AUTHORIZED=true
-DEPLOYMENT_AUTHORIZED=true
-COMMIT_AUTHORIZED=false
-PUSH_AUTHORIZED=false
+PUBLICATION_AUTHORIZATION_CONSUMED=true
+COMMIT_EXECUTED=true
+PUSH_EXECUTED=true
+GITHUB_RELEASE_EXECUTED=true
+REDCRAG_DEPLOYMENT_EXECUTED=true
+FURTHER_PUBLICATION_AUTHORIZED=false
+FURTHER_DEPLOYMENT_AUTHORIZED=false
+CURRENT_CANONICAL_DOMAIN=https://dcell.net
+REDCRAG_CN_ROLE=LEGACY_HISTORICAL_DOMAIN
 ```
